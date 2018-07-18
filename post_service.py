@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 import os
-import waste
 import smtplib
+
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+
+import waste
 
 fromaddr = os.environ.get("FROMADDR", '')
 toaddr = os.environ.get("TOADDR", '')
