@@ -4,6 +4,6 @@ services:
     build:
        context: .
     environment: &post_service_environment
-      FROMADDR: jrdev88@gmail.com
-      TOADDR: rbblowball@gmail.com
-      PASSWORD: fakemargo
+      FROMADDR: smth@gmail.com
+      TOADDR: anyth@gmail.com
+      PASSWORD: fakepassw
